@@ -1,0 +1,19 @@
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-family: fantasy;
+  min-height: 100vh;
+}
+
+.recipes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.container > p {
+  font-size: 13px;
+  margin-top: 50px;
+}

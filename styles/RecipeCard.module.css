@@ -1,0 +1,20 @@
+.recipe_card {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #a4a4a4;
+}
+
+.recipe_card > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.recipe_card > h2 {
+  font-size: 15px;
+  margin: 10px;
+  text-align: left;
+  color: #000000;
+}

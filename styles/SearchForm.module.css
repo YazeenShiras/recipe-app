@@ -1,0 +1,32 @@
+.input_form {
+    height: 40px;
+    border: 1px solid #afadad;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_form > input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.input_form > button {
+    height: 104%;
+    width: 100px;
+    background-color: #512c76;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: inherit;
+}
